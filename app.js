@@ -3,6 +3,7 @@ const app = express();
 const conceptsRouter = require("./routes/conceptsRoutes.js");
 const wordsRouter = require("./routes/wordsRoutes.js");
 const cors = require("cors");
+const compression = require("compression");
 
 app.use(
   "/api/v1/concepts",
@@ -19,5 +20,7 @@ app.use(
   }),
   wordsRouter
 );
+
+app.use(compression());
 
 module.exports = app;
