@@ -1,0 +1,144 @@
+[
+  {
+    "id": 0,
+    "name": "Array",
+    "type": "Javascript",
+    "computingDefinition": "A way of organizing and storing related data in a computer memory",
+    "example": "let cars = ['Saab', 'Volvo', 'BMW']",
+    "generalDefinition": "A group or collection of things or people, often one that is large or impressive",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 1,
+    "name": "Loops",
+    "type": "Javascript",
+    "computingDefinition": "A set of instructions that is repeated again and again until a particular condition is satisfied",
+    "example": "let cars = ['Saab', 'Volvo', 'BMW']",
+    "generalDefinition": "A shape like a curve or circle made by a line curving right round",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 2,
+    "name": "For",
+    "type": "Javascript",
+    "computingDefinition": "Loops can execute a block of code a number of times.",
+    "example": "let cars = ['Saab', 'Volvo', 'BMW']",
+    "generalDefinition": "Used to show who is intended to have or use something or where something is intended to be put",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 3,
+    "name": "For in",
+    "type": "Javascript",
+    "computingDefinition": "Loop through the properties of an object:",
+    "example": "let cars = ['Saab', 'Volvo', 'BMW']",
+    "generalDefinition": "None",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 4,
+    "name": "Variable",
+    "type": "Javascript",
+    "computingDefinition": "JavaScript variables are containers for storing data values.",
+    "example": "var x = 5;",
+    "generalDefinition": "​A situation, number or quantity that can vary or be varied",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 5,
+    "name": "Let",
+    "type": "Javascript",
+    "computingDefinition": "A container for storing data values that may change after it has been declared.",
+    "example": "var x = 5;",
+    "generalDefinition": "(specialist) used to say that you are supposing something to be true when you calculate something",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 6,
+    "name": "Const",
+    "type": "Javascript",
+    "computingDefinition": "A container for storing data values that may not change after having been declared. Short for constant.",
+    "example": "const x = 5;",
+    "generalDefinition": "(constant) A number or quantity that does not vary",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 7,
+    "name": "Strings",
+    "type": "Javascript",
+    "computingDefinition": "A JavaScript string stores a series of characters like 'John Doe'.",
+    "example": "var carName1 = 'Volvo XC60;'",
+    "generalDefinition": "A series of characters (= letters, numbers, etc.)",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 8,
+    "name": "Number",
+    "type": "Javascript",
+    "computingDefinition": "A quanity either with or without decimals. Unlike many other programming languages, Javascript recognizes has one number type.",
+    "generalDefinition": "A word or symbol that represents an amount or a quantity",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 9,
+    "name": "Booleans",
+    "type": "Javascript",
+    "computingDefinition": "A way of organizing and storing related data in a computer memory",
+    "example": "let tenIsGreaterThanNine = true;",
+    "generalDefinition": "​Connected with a system, used especially in computing and electronics, that uses only the numbers 1 (to show something is true) and 0 (to show something is false)",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 10,
+    "name": "Maps",
+    "type": "Javascript",
+    "computingDefinition": "A collection of key/value pairs similar to an object. The main difference is between the two is that programmers have more freedom in how they define the keys.",
+    "example": "let john = { name: 'John', age: 34 };",
+    "generalDefinition": "A diagram to show the positions of things over an area",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 11,
+    "name": "Sets",
+    "type": "Javascript",
+    "computingDefinition": "A collection of values that are all unique. Sets are similar to objects but have only values, not keys.",
+    "example": "var set1 = new Set(['summit', 'submit', 'summarize']);",
+    "generalDefinition": "A group of similar things that belong together in some way",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 12,
+    "name": "Try/catch",
+    "type": "Javascript",
+    "computingDefinition": "A way to test a block of code that may not always work. After we try to do so, we may immediately handle the errors with catch. Try/catch is most often used when fetching data from elsewhere on the web.",
+    "example": "Will follow",
+    "generalDefinition": "None",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 13,
+    "name": "Async",
+    "type": "Javascript",
+    "computingDefinition": "Async is a special word we use together with await. It tells Javascript that the code block that follows cannot be executed immediately, which would be the normal behavior. Instead, Javascript must await a certain result. Async/await is most often used when our program needs data from elsewhere on the web. This is because requesting such data will always take a little while.",
+    "generalDefinition": "(asynchronous) (of two or more objects or events) not existing or happening at the same time",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 14,
+    "name": "Object",
+    "type": "Javascript",
+    "computingDefinition": "An object is a collection of keys and values. A key is a normal word that we use as a means to identify. The corresponding value is the actual data we need.",
+    "example": "var car = {type:'Fiat', model:'500', color:'white'};",
+    "generalDefinition": "A thing that can be seen and touched, but is not alive",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 15,
+    "name": "Method",
+    "type": "Javascript",
+    "computingDefinition": "Like functions, methods are special actions or operations that our code can execute. However, methods are always part of objects while functions are not.",
+    "example": "Will follow",
+    "generalDefinition": "A  particular way of doing something",
+    "etymology": "Will follow"
+  }
+]

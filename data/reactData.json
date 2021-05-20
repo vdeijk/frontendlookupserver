@@ -1,0 +1,155 @@
+[
+  {
+    "id": 0,
+    "name": "State",
+    "type": "React",
+    "computingDefinition": "A way of organizing and storing related data in a computer memory",
+    "example": "Will follow",
+    "generalDefinition": "the mental, emotional or physical condition that a person or thing is in",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 1,
+    "name": "Props",
+    "type": "React",
+    "computingDefinition": "A way of organizing and storing related data in a computer memory",
+    "example": "Will follow",
+    "generalDefinition": "A piece of wood, metal, etc. used to support something or keep it in position",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 2,
+    "name": "Render method",
+    "type": "React",
+    "computingDefinition": "Rendering is the process of generating an image from a model (or models in what collectively could be called a scene file), by means of computer programs. ",
+    "example": "Will follow",
+    "generalDefinition": "To present something, especially when it is done officially",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 3,
+    "name": "Prop drilling",
+    "type": "React",
+    "computingDefinition": "A way of passing down a special form of data (=props) from one building block of our app into another",
+    "example": "Will follow",
+    "generalDefinition": "None",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 4,
+    "name": "Hooks",
+    "type": "React",
+    "computingDefinition": "A special type of function that is a part of React. Hooks give us special tools we need to pass down data or make Api calls.",
+    "example": "Will follow",
+    "generalDefinition": "A curved piece of metal, plastic or wire for hanging things on, catching fish with, etc.",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 5,
+    "name": "Event handling",
+    "type": "React",
+    "computingDefinition": "An action or series of actions that our program will take if the user performs a special action.",
+    "example": "Will follow",
+    "generalDefinition": "A thing that happens, especially something important",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 6,
+    "name": "Lists",
+    "type": "React",
+    "computingDefinition": "A way of organizing and storing related data in a computer memory",
+    "example": "Will follow",
+    "generalDefinition": "A group or collection of things or people, often one that is large or impressive",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 7,
+    "name": "Keys",
+    "type": "React",
+    "computingDefinition": "A special and unique name that React needs to identify a block of code. That block is part of a list of similar blocks.",
+    "example": "Will follow",
+    "generalDefinition": "An explanation of the symbols used on a map or plan",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 8,
+    "name": "Components",
+    "type": "React",
+    "computingDefinition": "A way of organizing and storing related data in a computer memory",
+    "example": "Will follow",
+    "generalDefinition": "A piece of code code that can be reused and that forms a basic building block of our app. React apps are made up primarily of components",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 9,
+    "name": "JSX",
+    "type": "React",
+    "computingDefinition": "A piece of content that can be rendered on screen as part of a webpage. It looks familiar so that it is easy to use, but it is unique to React.",
+    "example": "Will follow",
+    "generalDefinition": "None.",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 10,
+    "name": "Lifecycle",
+    "type": "React",
+    "computingDefinition": "The various states a building block of our app can be in while it is running. To make the process of coding easier, not all building blocks have them.",
+    "example": "Will follow",
+    "generalDefinition": "The period of time during which something, for example a product, is developed and used",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 11,
+    "name": "useEffect",
+    "type": "React",
+    "computingDefinition": "A special function that React can execute whenever our app changes in some specific way. We use useEffect to cause various side effects such as requesting data from somewhere when the user clicks a button.",
+    "example": "Will follow",
+    "generalDefinition": "(effect) a change that somebody/something causes in somebody/something else; a result",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 12,
+    "name": "useContext",
+    "type": "React",
+    "computingDefinition": "A special function that holds a body of data available everywhere in our app.",
+    "example": "Will follow",
+    "generalDefinition": "The situation in which something happens and that helps you to understand it",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 13,
+    "name": "useReducer",
+    "type": "React",
+    "computingDefinition": "A special function that React uses to make something happen in our app once some special action has taken place.",
+    "example": "Will follow",
+    "generalDefinition": "(reduce) to make something less or smaller in size, quantity, price, etc.; to become less or smaller in size, quantity, etc.",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 14,
+    "name": "useState",
+    "type": "React",
+    "computingDefinition": "A special function that React uses to change data or groups of related data.",
+    "example": "Will follow",
+    "generalDefinition": "The mental, emotional or physical condition that a person or thing is in",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 15,
+    "name": "Strict mode",
+    "type": "React",
+    "computingDefinition": "Something we can activate so that React gives us more and better feedback about our code.",
+    "example": "Will follow",
+    "generalDefinition": "(strict) demanding that rules, especially rules about behaviour, should be obeyed",
+    "etymology": "Will follow"
+  },
+  {
+    "id": 16,
+    "name": "Composition",
+    "type": "React",
+    "computingDefinition": "A way of looking at the different parts of which our app is made.",
+    "example": "Will follow",
+    "generalDefinition": "The different parts that something is made of; the way in which the different parts are organized",
+    "etymology": "Will follow"
+  }
+]
