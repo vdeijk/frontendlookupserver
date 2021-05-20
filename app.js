@@ -8,7 +8,7 @@ const compression = require("compression");
 app.use(
   "/api/v1/concepts",
   cors({
-    origin: "http://localhost:3000",
+    origin: ["http://localhost:3000", "https://frontend-lookup.web.app/"],
   }),
   conceptsRouter
 );
@@ -16,7 +16,7 @@ app.use(
 app.use(
   "/api/v1/words",
   cors({
-    origin: "http://localhost:3000",
+    origin: ["http://localhost:3000", "https://frontend-lookup.web.app/"],
   }),
   wordsRouter
 );
