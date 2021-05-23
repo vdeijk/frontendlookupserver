@@ -3,103 +3,104 @@
     "id": 0,
     "name": "Array",
     "type": "Javascript",
-    "computingDefinition": "A way of organizing and storing related data in a computer memory",
+    "computingDefinition": "An array is a type of variable that contains multiple values. These values might be numbers, pieces of text, or more complex data structures such as another array. Every array element has an index number that we can use to retrieve the data stored at that index. Arrays are great when you have a list of related items that you want to store. Another useful feature of arrays is that Javascript has a large number of special actions (array methods) that we can use on them.",
     "example": "let cars = ['Saab', 'Volvo', 'BMW']",
     "generalDefinition": "A group or collection of things or people, often one that is large or impressive",
     "etymology": "Will follow"
   },
   {
     "id": 1,
-    "name": "Loops",
+    "name": "Loop",
     "type": "Javascript",
-    "computingDefinition": "A set of instructions that is repeated again and again until a particular condition is satisfied",
+    "computingDefinition": "A loop is a block of code that is repeated again and again until a particular condition is satisfied. Javascript has different types of loops, but each one follows this basic principle. Some loops will cycle through all the elements of a data structure one by one while others will continue to execute until a certain condition is true. We use loops to cycle through large bodies of data automatically, saving us many lines of code.",
     "example": "let cars = ['Saab', 'Volvo', 'BMW']",
-    "generalDefinition": "A shape like a curve or circle made by a line curving right round",
-    "etymology": "Will follow"
+    "generalDefinition": "A loop is a shape like a curve or circle where the end connects back to the beginning. A loop might be a piece of rope or wire, but it could also be tape or film. We may use loop as a verb as well. In that case, it refers to bending something into the shape of a loop or to something or someone moving in the shape of a loop, such as a river.",
+    "etymology": "The word loop stems from middle English, but it's ultimate origin is unknown"
   },
   {
     "id": 2,
     "name": "For",
     "type": "Javascript",
-    "computingDefinition": "Loops can execute a block of code a number of times.",
+    "computingDefinition": "A loop is a block of code that is repeated again and again until a particular condition is satisfied. For is probably the most basic type of loop that we have in Javascript. However, it's syntax is somewhat bloated, which means experienced coders almost never use it.",
     "example": "let cars = ['Saab', 'Volvo', 'BMW']",
-    "generalDefinition": "Used to show who is intended to have or use something or where something is intended to be put",
-    "etymology": "Will follow"
+    "generalDefinition": "For is a preposition, and like many other prepositions, it appears deceptively simple. In reality, for has dozens of different meanings, and it can pair together with verbs to form idioms, adding dozens more meanings still. In the case of the for loop, for basically means that we execute a certain block of code for every value that we assign to a special variable called i. (The name of the variable doesn't have to be i, but it is convention to name it so.)",
+    "etymology": "For stems from Old English, where it was also used as a preposition. It's ultimate origin is Germanic."
   },
   {
     "id": 3,
-    "name": "For in",
+    "name": "For of",
     "type": "Javascript",
-    "computingDefinition": "Loop through the properties of an object:",
+    "computingDefinition": "A loop is a block of code that is repeated again and again until a particular condition is satisfied. The for of loop in particular allows us to loop through all the properties of certain data structures or variables one by one. (Some data structures and variables cannot looped over in Javascript as they aren't iterable.) Unlike certain other loops, for of can be quite convienient to use, so it is a useful tool to know.",
     "example": "let cars = ['Saab', 'Volvo', 'BMW']",
-    "generalDefinition": "None",
-    "etymology": "Will follow"
+    "generalDefinition": "For is a preposition, and like many other prepositions, it appears deceptively simple. In reality, for has dozens of different meanings, and it can pair together with verbs to form idioms, adding dozens more meanings still. In the case of the for of loop, for basically means that we execute a certain block of code for every value in our data structure.",
+    "etymology": "For stems from Old English, where it was also used as a preposition. It's ultimate origin is Germanic."
   },
   {
     "id": 4,
     "name": "Variable",
     "type": "Javascript",
-    "computingDefinition": "JavaScript variables are containers for storing data values.",
+    "computingDefinition": "JavaScript variables are containers for storing data values. In modern Javascript, we have a couple of different types. Some variables are simple in the sense they store only one data value, such as a number, piece of text, or true/false value. Others are more complex. What variable we use depends very much on the situation, so every coder should be extremely familiar with them.",
     "example": "var x = 5;",
-    "generalDefinition": "​A situation, number or quantity that can vary or be varied",
-    "etymology": "Will follow"
+    "generalDefinition": "​A variable is a situation, number or quantity that can vary or be varied. We often use it as a noun, but it can be a modier as well. For example, we may talk about variable temperatures, or products of variable quality.",
+    "etymology": "Variable arrived into English via Old French. It stems from the Latin word varius, meaning 'diverse'."
   },
   {
     "id": 5,
     "name": "Let",
     "type": "Javascript",
-    "computingDefinition": "A container for storing data values that may change after it has been declared.",
-    "example": "var x = 5;",
-    "generalDefinition": "(specialist) used to say that you are supposing something to be true when you calculate something",
-    "etymology": "Will follow"
+    "computingDefinition": "Let is a container for storing data values, which makes it a type of variable. Particular about let is that its value may change after we declare it. For this reason, we try to use let as little as possible in Javascript. If the value of a variable doesn't need to change, we'll often use another type of variable instead.",
+    "example": "let x = 5;",
+    "generalDefinition": "In regular English, let has quite a number of different meanings. However, the one most related to coding is pretty obscure. It is a specialist definition that we use to say we suppose something to be true when we calculate something.",
+    "etymology": "Let comes from old English, where it means to leave something out or behind."
   },
   {
     "id": 6,
     "name": "Const",
     "type": "Javascript",
-    "computingDefinition": "A container for storing data values that may not change after having been declared. Short for constant.",
+    "computingDefinition": "Const is a container for storing data values, which makes it a type of variable. Const is often juxtaposed against let, which is a Javascript variable whose value can change. Most programmers aim to use const instead of let as much as possible as it makes our code simpler.",
     "example": "const x = 5;",
-    "generalDefinition": "(constant) A number or quantity that does not vary",
-    "etymology": "Will follow"
+    "generalDefinition": "Const is short for constant, which means number or quantity that does not vary. Chattering can be constant and the resulting headache can be too.",
+    "etymology": "Constant arrived into English via Old French. It stems from the Latin verb constare, meaning 'withstand'."
   },
   {
     "id": 7,
-    "name": "Strings",
+    "name": "String",
     "type": "Javascript",
-    "computingDefinition": "A JavaScript string stores a series of characters like 'John Doe'.",
+    "computingDefinition": "A JavaScript string stores a series of characters like 'John Doe', for example. A string is stored inside either single or double quotes. A string is a type of variable. When a user fills in a form, his name and email are usually stored as strings.",
     "example": "var carName1 = 'Volvo XC60;'",
-    "generalDefinition": "A series of characters (= letters, numbers, etc.)",
-    "etymology": "Will follow"
+    "generalDefinition": "In regular English, a string is a series of characters. These could be letters, numbers, or anything else. A string may also be the long, thin material that we use for tying things together, made of several threads weaved together. Alternatively, we can use string as a verb. It means that was hang something in place, like garlands for decoration, or that we tie things together using string.",
+    "etymology": "String stems from the Old English streng, and is of Germanic origin."
   },
   {
     "id": 8,
     "name": "Number",
     "type": "Javascript",
-    "computingDefinition": "A quanity either with or without decimals. Unlike many other programming languages, Javascript recognizes has one number type.",
-    "generalDefinition": "A word or symbol that represents an amount or a quantity",
-    "etymology": "Will follow"
+    "computingDefinition": "A number is quanity either with or without decimals, such as 2, 200, and 200.22. Unlike many other programming languages, Javascript recognizes only one type of number, regardless of whether it has decimals or is positive or negative. There are no number subtypes for 2, 200, and 200.22.",
+    "generalDefinition": "A number is simply a word or symbol that represents an amount or a quantity, though we can also use the word as a verb. When we do, it means that we give a number to something such as an item in a list.",
+    "etymology": "The word number came to use via Old French. It ultimately originates from Latin numerus."
   },
   {
     "id": 9,
-    "name": "Booleans",
+    "name": "Boolean",
     "type": "Javascript",
-    "computingDefinition": "A way of organizing and storing related data in a computer memory",
+    "computingDefinition": "A boolean is a special type of variable because it can have only two values: true or false. This might seem a bit simple or even trivial, but there are many situations in programming in which we need only either. Booleans are particularly useful when we need to compare things, such as whether one variable has a number with a greater value than another. They can also be useful for toggling UI items, such as the visibility of a button on a webpage.",
     "example": "let tenIsGreaterThanNine = true;",
-    "generalDefinition": "​Connected with a system, used especially in computing and electronics, that uses only the numbers 1 (to show something is true) and 0 (to show something is false)",
-    "etymology": "Will follow"
+    "generalDefinition": "​Boolean isn't really a word that we use in regular English, but it is used in specialized fields like electronics. Here, it has a meaning that is very similar to that in programming: a component within a system that can take only one of two values.",
+    "etymology": "The word boolean came from the name of G. Boole (1815-1864), an English mathematician."
   },
   {
     "id": 10,
-    "name": "Maps",
+    "name": "Map",
     "type": "Javascript",
-    "computingDefinition": "A collection of key/value pairs similar to an object. The main difference is between the two is that programmers have more freedom in how they define the keys.",
+    "computingDefinition": "A map is collection of key/value pairs that is similar to an object. The main difference is between an object and a map is that maps allow programmers more freedom in how they define their keys. Every key within a regular object needs to be a word or similar, singular piece of text, but the keys of a map may also hold different types of values. Maps are a newer feature of Javascript and aren't nearly as popular as object. Nevertheless, they can be useful in cetain situations.",
     "example": "let john = { name: 'John', age: 34 };",
-    "generalDefinition": "A diagram to show the positions of things over an area",
-    "etymology": "Will follow"
+    "generalDefinition": "The definition of map that we use most often is, of course, a diagram or drawing of some surface of the Earth. However, map can also mean a diagram of the arrangement or distribution of something over an area, such as the prevailing wind direction or temperature.",
+
+    "etymology": "Map came into English via the medieval Latin phrase 'mappa mundi', literally 'sheet of the world'"
   },
   {
     "id": 11,
-    "name": "Sets",
+    "name": "Set",
     "type": "Javascript",
     "computingDefinition": "A collection of values that are all unique. Sets are similar to objects but have only values, not keys.",
     "example": "var set1 = new Set(['summit', 'submit', 'summarize']);",
@@ -110,35 +111,35 @@
     "id": 12,
     "name": "Try/catch",
     "type": "Javascript",
-    "computingDefinition": "A way to test a block of code that may not always work. After we try to do so, we may immediately handle the errors with catch. Try/catch is most often used when fetching data from elsewhere on the web.",
+    "computingDefinition": "Try/catch gives as a way to test a block of code that may not always work. The word try contains our attempt while the word catch contains our course of action when the attempt fails. Try/catch is most often used when fetching data from elsewhere on the web because this is never completely error-proof.",
     "example": "Will follow",
-    "generalDefinition": "None",
-    "etymology": "Will follow"
+    "generalDefinition": "The word try means that we attempt to do something, such as climbing a mountain or avoiding traffic lights. Catch means grabbing on to something that is moving. The words don't really form any kind of idiom in English, but in programming they can make for a pretty handy combination.",
+    "etymology": "Try came into Middle English via Old French trier 'sift' while catch stems from Old Northern French 'cachier'."
   },
   {
     "id": 13,
     "name": "Async",
     "type": "Javascript",
-    "computingDefinition": "Async is a special word we use together with await. It tells Javascript that the code block that follows cannot be executed immediately, which would be the normal behavior. Instead, Javascript must await a certain result. Async/await is most often used when our program needs data from elsewhere on the web. This is because requesting such data will always take a little while.",
-    "generalDefinition": "(asynchronous) (of two or more objects or events) not existing or happening at the same time",
-    "etymology": "Will follow"
+    "computingDefinition": "Async is a special word that we use together with await. Async tells Javascript that the code block that follows cannot be executed immediately, which would be the normal behavior. Instead, Javascript must await a certain result. Async/await is most often used when our program needs data from elsewhere on the web. This is because requesting such data will always take a little while. Keep in mind that async and await must always be paired together. If they are not, Javascript will throw an error.",
+    "generalDefinition": "Async is shorthand for asynchronous, which means that two or more objects or events do not happen at the same time.",
+    "etymology": "Unknown"
   },
   {
     "id": 14,
     "name": "Object",
     "type": "Javascript",
-    "computingDefinition": "An object is a collection of keys and values. A key is a normal word that we use as a means to identify. The corresponding value is the actual data we need.",
+    "computingDefinition": "An object is a collection of keys and values that we store as pairs. The key is a word or similar piece of text that we use as a means to identify the value. The value is the actual data we need. Objects are extremely common in Javascript as we can use them to store almost anything. Just keep in mind that we cannot easily loop through them as the key/value pairs are stored in random order.",
     "example": "var car = {type:'Fiat', model:'500', color:'white'};",
-    "generalDefinition": "A thing that can be seen and touched, but is not alive",
-    "etymology": "Will follow"
+    "generalDefinition": "A thing that can be seen and touched, but is not alive. It's a very general word that we can use to describe a wide variety of items. Cars, mountains, clouds, and skyscrapers are all objects, though lions and tigers are not. The term object was probably chosen aptly as Javascript objects are similarly all-encompassing.",
+    "etymology": "Object came into Middle English from the medieval Latin objectum, which means 'thing presented to the mind'."
   },
   {
     "id": 15,
     "name": "Method",
     "type": "Javascript",
-    "computingDefinition": "Like functions, methods are special actions or operations that our code can execute. However, methods are always part of objects while functions are not.",
+    "computingDefinition": "Like functions, methods are special actions or operations that our code can execute. These actions are contained within a single block of code, which makes them easily identifiable and even reusable. However, methods are always part of objects while functions are not. We use methods to give our objects special abilities, such as calculating the age of a person whose name, age, and year of birth we've already stored.",
     "example": "Will follow",
-    "generalDefinition": "A  particular way of doing something",
-    "etymology": "Will follow"
+    "generalDefinition": "A method is a particular way of doing something. We can have traditional methods, alternative methods, or the scientific method, for example. Method also be used to signify that something was well-planned or executed. There can even be method to somebody's madness. This idiom means that somebody's actions aren't quite as stupid as they might appear at first glance.",
+    "etymology": "Method arrived into Middle English via Latin from the Greek word methodos 'pursuit of knowledge'."
   }
 ]

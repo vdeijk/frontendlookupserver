@@ -3,100 +3,100 @@
     "id": 0,
     "name": "State",
     "type": "React",
-    "computingDefinition": "A way of organizing and storing related data in a computer memory",
+    "computingDefinition": "React apps are made up of components, and these components may change over time. For example, a header might cycle through different background images while a button might change color, shape, or size. Alternatively, the user might fill in his name and email before submitting a form. State is the general term we use for the data that controls such component behavior. Not all React components use state as some simply render things to the screen. The components that do use state are called stateful.",
     "example": "Will follow",
-    "generalDefinition": "the mental, emotional or physical condition that a person or thing is in",
-    "etymology": "Will follow"
+    "generalDefinition": "State means the mental, emotional or physical condition that a person or thing is in. It may also refer to a country that is organized as a political unity, though that definition has nothing to do with coding.",
+    "etymology": "State came into Middle English as both a shortening of estate update of the Latin status 'manner of standing, condition'."
   },
   {
     "id": 1,
-    "name": "Props",
+    "name": "Prop",
     "type": "React",
-    "computingDefinition": "A way of organizing and storing related data in a computer memory",
+    "computingDefinition": "Props are one of the two ways in which we pass data around in React. What sets props apart is that it makes use of a uni-directional data flow. For example, a header component might pass the color or text value of one of its buttons down to that button. However, the button would not be able to pass data back to the header, at least not via props. Being uni-directional enables props to keep our code simple. That's why, whenever possible, experienced programmers prefer to use props as opposed to other ways of passing around data.",
     "example": "Will follow",
-    "generalDefinition": "A piece of wood, metal, etc. used to support something or keep it in position",
-    "etymology": "Will follow"
+    "generalDefinition": "A prop is a piece of wood, metal, etc. that we use to support something or keep it in position. An engineer might use props to keep a bridge from collapsing while a roofer might use them to support a house. The term is appropriate because props in React also provide support.",
+    "etymology": "The word prop entered our language via Middle English, and probably stems from Middle Dutch proppe 'support (for vines)'."
   },
   {
     "id": 2,
     "name": "Render method",
     "type": "React",
-    "computingDefinition": "Rendering is the process of generating an image from a model (or models in what collectively could be called a scene file), by means of computer programs. ",
+    "computingDefinition": "Generally speaking, rendering is the process of generating an image from a model. As such, the term is used in a number of different, specialized fields. React is a piece of software that helps us build user interfaces, so rendering visual elements will always be an important part of it. The render method refers to that part of a React component's code that contains the actual user interface elements. This can be juxtaposed to functions and other Javascript elements that might also be part of the component.",
     "example": "Will follow",
-    "generalDefinition": "To present something, especially when it is done officially",
-    "etymology": "Will follow"
+    "generalDefinition": "Rendering means to present something, especially officially. Rendering in React has everything to do with presenting as one of the main results of using React should be beautiful, dynamic user interface.",
+    "etymology": "Render entered our language via Middle English. It ultimately stems from an alteration of the Latin word reddere, 'give back'."
   },
   {
     "id": 3,
     "name": "Prop drilling",
     "type": "React",
-    "computingDefinition": "A way of passing down a special form of data (=props) from one building block of our app into another",
+    "computingDefinition": "Props are one of the two ways in which we pass data around in our apps. When we have to pass props down multiple layers of components, we use the term prop drilling. While prop drilling often has a negative connotation, it doesn't always have to be. Some programmers might prefer to use prop drilling because it avoids the complications of using other ways to pass around data. And passing props down two layers is very different than passing it down five.",
     "example": "Will follow",
-    "generalDefinition": "None",
-    "etymology": "Will follow"
+    "generalDefinition": "A prop is a piece of wood, metal, etc. that we use to support something or keep it in position. An engineer might use props to keep a bridge from collapsing while a roofer might use them to support a house. However, prop drilling is a term unique to React.",
+    "etymology": "The word prop entered our language via Middle English, and probably stems from Middle Dutch proppe 'support (for vines)'."
   },
   {
     "id": 4,
-    "name": "Hooks",
+    "name": "Hook",
     "type": "React",
-    "computingDefinition": "A special type of function that is a part of React. Hooks give us special tools we need to pass down data or make Api calls.",
+    "computingDefinition": "Hooks are special functions that form an important part of modern React. Hooks give us certain functionality out-of-the-box, meaning we don't have to code it up ourselves. We have special hooks for making Api calls, passing around data, and many other things. Our React code would be quite a bit more complicated without hooks.",
     "example": "Will follow",
-    "generalDefinition": "A curved piece of metal, plastic or wire for hanging things on, catching fish with, etc.",
-    "etymology": "Will follow"
+    "generalDefinition": "A hook is curved piece of metal, plastic, or wire for hanging things onto, for catching fish with, etc. In the context of React, hooks allow us to 'hook' special functionality onto our components, making them more dynamic and responsive.",
+    "etymology": "Hook originates from the Old English hōc and is of Germanic origin."
   },
   {
     "id": 5,
-    "name": "Event handling",
+    "name": "Event handler",
     "type": "React",
-    "computingDefinition": "An action or series of actions that our program will take if the user performs a special action.",
+    "computingDefinition": "An event handler is a function that runs whenever a certain condition is met or some special action takes place. Examples of events are the user submitting a form and the page finishing to load. React handles events in almost the same way as regular Javascript, but an event handler is something specific to React. Whenever we need our apps to react to something dynamically, event handlers should be on the top of our minds.",
     "example": "Will follow",
-    "generalDefinition": "A thing that happens, especially something important",
-    "etymology": "Will follow"
+    "generalDefinition": "An event is a thing that happens, especially something important. Events can take all shapes and sizes--weddings, birthday parties, funerals, mournings, church sermons, etc.",
+    "etymology": "The word event comes from Latin 'eventus'."
   },
   {
     "id": 6,
-    "name": "Lists",
+    "name": "List",
     "type": "React",
-    "computingDefinition": "A way of organizing and storing related data in a computer memory",
+    "computingDefinition": "Lists are an ordered number of items grouped together, usually user interface elements. We use them to display all kinds of such elements: navigation menu's, dropdown menu's, series of clickable links, and so on. Lists are particular to React. While Javascript does have means to group and store data, only React allows us to group and store user interface elements. A key element to remember is that each list item must have a unique identifier called a key. If it does not, React will complain and might crash.",
     "example": "Will follow",
-    "generalDefinition": "A group or collection of things or people, often one that is large or impressive",
-    "etymology": "Will follow"
+    "generalDefinition": "A list is a group or collection of things or people, often one that is large or impressive. In React, this doesn't have to be so, as lists can be made up of just three, or four, or five elements. However, we can make our lists as long and complicated as we wish, though code readability might eventually become a problem.",
+    "etymology": "The word list stems from Old English liste 'border' and is of Germanic origin."
   },
   {
     "id": 7,
-    "name": "Keys",
+    "name": "Key",
     "type": "React",
-    "computingDefinition": "A special and unique name that React needs to identify a block of code. That block is part of a list of similar blocks.",
+    "computingDefinition": "Keys are used in React as unique identifiers for grouped items. Usually, those items are user interface elements grouped together in a list (a special React term for a container that stores such things). Without keys, React wouldn't have a means to tell which interface element was which, leading to potentially nasty bugs.",
     "example": "Will follow",
-    "generalDefinition": "An explanation of the symbols used on a map or plan",
+    "generalDefinition": "The word keys most commonly refers to a metal object with a special shape that we use to unlock and lock things. However, key can also mean a written explanation of the symbols used on a map or plan. This latter definition is the one closest to what we have in React.",
     "etymology": "Will follow"
   },
   {
     "id": 8,
-    "name": "Components",
+    "name": "Component",
     "type": "React",
-    "computingDefinition": "A way of organizing and storing related data in a computer memory",
+    "computingDefinition": "Components form the basic structure of our React apps. Components might be headers, buttons, forms, cards, or anything else that is rendered on-screen. A key feature of components is that they are reusable. That means we don't have to write out the same code every time we want to display a certain type of button, for example. Instead, we would simply reuse the same button component.",
     "example": "Will follow",
-    "generalDefinition": "A piece of code code that can be reused and that forms a basic building block of our app. React apps are made up primarily of components",
-    "etymology": "Will follow"
+    "generalDefinition": "A component is one of several parts of which something is made. That something could be a machine such as a microwave or car or a clock or watch.",
+    "etymology": "Component stems from the Latin verb componere, meaning 'putting together'."
   },
   {
     "id": 9,
     "name": "JSX",
     "type": "React",
-    "computingDefinition": "A piece of content that can be rendered on screen as part of a webpage. It looks familiar so that it is easy to use, but it is unique to React.",
+    "computingDefinition": "JSX looks virtually identical to Html, which is the language all webpages use to display content. However, JSX isn't Html but an extention of Javascript that React gives us access to. JSX also has a couple of extra features that allow us to integrate dynamic Javascript code right into our Html. This is a core feature of React and one that is loved by many developers.",
     "example": "Will follow",
-    "generalDefinition": "None.",
-    "etymology": "Will follow"
+    "generalDefinition": "JSX is a syntax addition to Javascript, so there is no word for it in regular English.",
+    "etymology": "Developed by the React team."
   },
   {
     "id": 10,
     "name": "Lifecycle",
     "type": "React",
-    "computingDefinition": "The various states a building block of our app can be in while it is running. To make the process of coding easier, not all building blocks have them.",
+    "computingDefinition": "Some React components have the ability to change over time, for example when the user submits a form or clicks a button. The totally of phases in which a component can exist is called its lifecycle. The most common phases of a component's lifecycle are mounting, unmounted, and updating. These have to do with the loading of the page and the rendering of the component. React also has lifecycle methods. These allow us to execute certain blocks of code when the lifecycle enters a new phase.",
     "example": "Will follow",
-    "generalDefinition": "The period of time during which something, for example a product, is developed and used",
-    "etymology": "Will follow"
+    "generalDefinition": "In regular English, lifecyle refers to the time that something is developed and used. It is often used in industry to denote product development and adoptation.",
+    "etymology": "Unknown"
   },
   {
     "id": 11,
@@ -105,51 +105,51 @@
     "computingDefinition": "A special function that React can execute whenever our app changes in some specific way. We use useEffect to cause various side effects such as requesting data from somewhere when the user clicks a button.",
     "example": "Will follow",
     "generalDefinition": "(effect) a change that somebody/something causes in somebody/something else; a result",
-    "etymology": "Will follow"
+    "etymology": "Effect entered Middle English via Old French. It stems from Latin efficere, meaning 'accomplish',"
   },
   {
     "id": 12,
     "name": "useContext",
     "type": "React",
-    "computingDefinition": "A special function that holds a body of data available everywhere in our app.",
+    "computingDefinition": "useContext is a type of hook, meaning a special function that React gives us access to. useContext helps us to make pieces of data available whevever we want it in our app. This can be quite convienient when we want to pass data to components that are located in very different spaces. Without useContext, this would be almost impossible. useContext allows us to write clean, modern syntax and create highly dynamic effects.",
     "example": "Will follow",
     "generalDefinition": "The situation in which something happens and that helps you to understand it",
-    "etymology": "Will follow"
+    "etymology": "Context entered our language via Middle English, where it meant the construction of a text. It's ultimate origin is the Latin contextus, meaning 'weave together'."
   },
   {
     "id": 13,
     "name": "useReducer",
     "type": "React",
-    "computingDefinition": "A special function that React uses to make something happen in our app once some special action has taken place.",
+    "computingDefinition": "useReducer is a type of hook, meaning a special function that React gives us access to. useReducer is almost always used in conjunction with useContext to make pieces of data available whevever we want it in our app. This can be quite convienient when we want to pass data to components that are located in very different spaces. Without useReducer this would be almost impossible to do. useReducer allows us to write clean, modern syntax and create highly dynamic effects.",
     "example": "Will follow",
-    "generalDefinition": "(reduce) to make something less or smaller in size, quantity, price, etc.; to become less or smaller in size, quantity, etc.",
-    "etymology": "Will follow"
+    "generalDefinition": "To reduce means to make something lesser or smaller in size, quantity, price, etc. A car might reduce its speed when it exists a highway while a reduced price may lead to some very good deals.",
+    "etymology": "Reduce entered via Middle English. It originates from the Latin word reducere 'bring back, bring again, etc.'"
   },
   {
     "id": 14,
     "name": "useState",
     "type": "React",
-    "computingDefinition": "A special function that React uses to change data or groups of related data.",
+    "computingDefinition": "useState is a type of hook, meaning a special function that React gives us access to. useState allows us to create a body of data where we can store all our dynamic data. For example, when a header has three possible states in which it can exist, we can store those states using useState. useState allows us to easily update our React components, creating highly dynamic effects.",
     "example": "Will follow",
-    "generalDefinition": "The mental, emotional or physical condition that a person or thing is in",
-    "etymology": "Will follow"
+    "generalDefinition": "State means the mental, emotional or physical condition that a person or thing is in. It may also refer to a country that is organized as a political unity, though that definition has nothing to do with coding.",
+    "etymology": "State came into Middle English as both a shortening of estate update of the Latin status 'manner of standing, condition'."
   },
   {
     "id": 15,
     "name": "Strict mode",
     "type": "React",
-    "computingDefinition": "Something we can activate so that React gives us more and better feedback about our code.",
+    "computingDefinition": "StrictMode is a tool for highlighting potential problems in an application. When activated, it gives us more and better quality feedback about our code. Most experienced coders have strict mode enabled by default.",
     "example": "Will follow",
-    "generalDefinition": "(strict) demanding that rules, especially rules about behaviour, should be obeyed",
-    "etymology": "Will follow"
+    "generalDefinition": "The word strict means demanding that rules, especially rules about behaviour, are obeyed. The opposite of strict rules would be loose ones, for example. Within the context of React, strict is very much about rules as well. The difference is that many experienced developers voluntarily choose to lay these rules upon themselves. They feel it helps them create better code.",
+    "etymology": "Strict entered our language via Middle English but stems from the Latin word strictus. This meant 'tighten, or draw tight'."
   },
   {
     "id": 16,
     "name": "Composition",
     "type": "React",
-    "computingDefinition": "A way of looking at the different parts of which our app is made.",
+    "computingDefinition": "Composition is a way of looking at the different parts of which our app is made. It is very similar to the definition we have in regular English, as both pertain to how the different parts of something are organized. React apps are made up of components and these collectively lead to our composition. Composition also has to do with reusability, as we might need to display the same button or form in multiple places. The creators of React encourage us to think in terms of composition as this is what they had in mind when they built React.",
     "example": "Will follow",
     "generalDefinition": "The different parts that something is made of; the way in which the different parts are organized",
-    "etymology": "Will follow"
+    "etymology": "Composition came into Middle English via Old French. It orginates from the Latin verb componere, 'put together'."
   }
 ]
