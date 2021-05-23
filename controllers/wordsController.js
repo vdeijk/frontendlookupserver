@@ -8,9 +8,12 @@ const reactConcept = JSON.parse(
   fs.readFileSync(`${__dirname}/../data/reactData.json`)
 );
 
+//State
 const TOTALLANGUAGES = [jsConcept, reactConcept];
+let wordOfWeekSet = false;
+let wordOfWeek = TOTALLANGUAGES[0][0];
 
-const recentWords = () => {
+const setRecentWords = () => {
   //Calculate total terms
   const totalTerms = TOTALLANGUAGES.map((el) => {
     return el.length;
@@ -29,7 +32,7 @@ const recentWords = () => {
   };
 };
 
-const wordOfTheDay = () => {
+const setNewWordOfWeek = () => {
   //Select language
   const numberOfLanguages = TOTALLANGUAGES.length;
   const numberOfLanguage = Math.floor(Math.random() * numberOfLanguages);
@@ -39,19 +42,33 @@ const wordOfTheDay = () => {
   const languageLength = selectedLanguage.length;
   const wordNumber = Math.floor(Math.random() * languageLength);
 
-  return selectedLanguage[wordNumber];
+  wordOfWeekSet = true;
+  wordOfWeek = selectedLanguage[wordNumber];
+
+  return wordOfWeek;
+};
+
+const setWordOfWeek = () => {
+  const date = new Date();
+  const day = date.getDay();
+  if (day === 0 && !wordOfWeekSet) return setNewWordOfWeek();
+  else if (day === 0 && wordOfWeekSet) return wordOfWeek;
+  else {
+    if (wordOfWeekSet) wordOfWeekSet = false;
+    return wordOfWeek;
+  }
 };
 
 exports.recentwords = (req, res) => {
   res.status(200).json({
     status: "success",
-    data: recentWords(TOTALLANGUAGES),
+    data: setRecentWords(TOTALLANGUAGES),
   });
 };
 
 exports.wordoftheday = (req, res) => {
   res.status(200).json({
     status: "success",
-    data: wordOfTheDay(),
+    data: setWordOfWeek(),
   });
 };
